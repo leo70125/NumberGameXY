@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="題目:  "
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="123dp" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="題目:  "
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="123dp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請輸入X的值:"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請輸入Y的值:"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="123dp" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="檢查是否正確"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="354dp"
+        android:onClick="showToast"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+
+
+</LinearLayout>
